@@ -1,0 +1,68 @@
+
+  form {
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: linear-gradient(to bottom, #bd09b7, #6b4cf5);
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,  select {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    border: none;
+  }
+  
+  .button {
+    width: auto;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    border-radius: 1px;
+    border: none;
+    background-color: white;
+    color: #000000;
+  }
+
+  .accept-condition {
+    width: auto;
+    display: inline;
+  }
+
+  .fixed-width {
+    width: 97%;
+  }
+
+  @media only screen and (min-width: 500px) {
+    body {
+        margin: 20px;
+        font-family: sans-serif;
+        color: white;
+    }
+    form {
+        width: 300px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        margin: 0px;
+        font-family: sans-serif;
+        color: white;
+    }
+  }
